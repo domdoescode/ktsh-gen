@@ -1,0 +1,17 @@
+hash: d4bf55a9ed27fc608a0e7ad99e885a6ffd44677413cc4e07f2a8e717326db87e
+updated: 2017-03-24T11:11:02.647495006Z
+imports:
+- name: github.com/fogleman/gg
+  version: 6166aa3c1afaee416f384645a81636267aee6d25
+- name: github.com/golang/freetype
+  version: d9be45aaf7452cc30c0ceb1b1bf7efe1d17b7c87
+  subpackages:
+  - raster
+  - truetype
+- name: golang.org/x/image
+  version: c0851fbc5b9272dd7d08a021e9e3d2a21027b51f
+  subpackages:
+  - font
+  - font/basicfont
+  - math/fixed
+testImports: []

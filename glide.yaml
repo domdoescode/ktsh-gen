@@ -1,0 +1,3 @@
+package: github.com/domudall/ktsh-gen
+import:
+- package: github.com/fogleman/gg
