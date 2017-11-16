@@ -39,6 +39,10 @@ func main() {
 		os.Exit(1)
 	}
 
+	if !strings.HasPrefix(memeText, "#") {
+		memeText = "#" + memeText
+	}
+
 	memeText = strings.ToUpper(memeText)
 
 	path := fmt.Sprintf("./memes/%d-%d.png", time.Now().Unix(), rand.Intn(1000))
